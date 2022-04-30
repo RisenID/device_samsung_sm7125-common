@@ -140,7 +140,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator-service \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    android.hardware.renderscript@1.0-impl \
     libtinyxml \
     libtinyxml2 \
     hwcomposer.atoll \

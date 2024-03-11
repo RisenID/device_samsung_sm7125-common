@@ -75,8 +75,6 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     audio_parameter_service.samsung_sm7125
 
-TARGET_EXCLUDES_AUDIOFX := true
-
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/audio/configs/audio_configs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs.xml \
     $(COMMON_PATH)/audio/configs/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
@@ -97,7 +95,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     audio.bluetooth.default \
-    android.hardware.bluetooth.audio@2.1-impl \
+    android.hardware.bluetooth.audio-impl \
     android.hardware.bluetooth@1.0.vendor
 
 # Camera

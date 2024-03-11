@@ -60,10 +60,6 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.early_boot.sh
 
-# APNs
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/apns/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \

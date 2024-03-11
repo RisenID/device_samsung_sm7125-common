@@ -327,7 +327,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.sm7125-libperfmgr \
+    android.hardware.power-service.samsung-libperfmgr \
     android.hardware.power@1.2.vendor
 
 PRODUCT_COPY_FILES += \
@@ -357,8 +357,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.1-service.samsung-multihal \
-    android.hardware.sensors-service.sm7125-multihal \
+    android.hardware.sensors-service.samsung-multihal \
     android.hardware.sensors@2.0-ScopedWakelock.vendor \
     sensors.samsung
 
@@ -389,10 +388,6 @@ PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.samsung
-
-# Light
-PRODUCT_PACKAGES += \
-    android.hardware.light-service.sm7125
 
 # Tether
 PRODUCT_PACKAGES += \
@@ -446,7 +441,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/samsung \
-    $(COMMON_PATH)/aidl/power-libperfmgr
+    hardware/samsung/aidl/power-libperfmgr
 
 # Speed profile services and wifi-service to reduce RAM and storage
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile

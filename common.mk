@@ -49,7 +49,7 @@ PRODUCT_PACKAGES += \
     init.audio.samsung.rc \
     init.nfc.samsung.rc \
     init.vendor.onebinary.rc \
-    init.vendor.rilchip.rc \
+    vendor.samsung.rilchip.qcom.rc \
     init.vendor.rilcommon.rc \
     init.vendor.sensors.rc
 
@@ -346,7 +346,8 @@ PRODUCT_PACKAGES += \
     libxml2 \
     librilutils \
     librmnetctl \
-    secril_config_svc
+    secril_config_svc \
+    sehradiomanager
 
 # Sensors
 PRODUCT_PACKAGES += \

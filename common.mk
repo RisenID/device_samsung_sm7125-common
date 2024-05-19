@@ -341,13 +341,20 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.5.vendor \
-    android.hardware.radio.config@1.2.vendor \
-    android.hardware.radio.deprecated@1.0.vendor \
+    android.hardware.radio@1.2.vendor:64 \
+    android.hardware.radio.config-V2-ndk.vendor:64 \
+    android.hardware.radio.data-V2-ndk.vendor:64 \
+    android.hardware.radio.messaging-V2-ndk.vendor:64 \
+    android.hardware.radio.modem-V2-ndk.vendor:64 \
+    android.hardware.radio.network-V2-ndk.vendor:64 \
+    android.hardware.radio.sap-V1-ndk.vendor:64 \
+    android.hardware.radio.sim-V2-ndk.vendor:64 \
+    android.hardware.radio.voice-V2-ndk.vendor:64 \
     libxml2 \
     librilutils \
     librmnetctl \
-    secril_config_svc
+    secril_config_svc \
+    sehradiomanager
 
 # Sensors
 PRODUCT_PACKAGES += \

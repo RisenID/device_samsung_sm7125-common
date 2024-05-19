@@ -216,12 +216,8 @@ PRODUCT_COPY_FILES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service.samsung \
-    libkeymaster4_1support.vendor
-
-PRODUCT_PACKAGES += \
     libcrypto-v33 \
-    libshim_crypto:64 \
-    libssl-v33
+    libkeymaster4_1support.vendor
 
 # Media
 PRODUCT_COPY_FILES += \

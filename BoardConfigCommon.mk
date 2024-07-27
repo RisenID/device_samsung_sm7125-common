@@ -166,6 +166,7 @@ TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x400000000LL
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/configs/manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/configs/framework_compatibility_matrix.xml \
+    hardware/samsung/vintf/samsung_framework_compatibility_matrix.xml \
     vendor/aosp/config/device_framework_matrix.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/configs/compatibility_matrix.xml
 

@@ -475,5 +475,28 @@ TARGET_SUPPORTS_QUICK_TAP := true
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml
 
+# Rising OS stuff
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_MAINTAINER="RisenID" \
+    RISING_CHIPSET="Snapdragon 720g"
+
+RISING_MAINTAINER           := RisenID
+TARGET_ENABLE_BLUR          := false
+PRODUCT_NO_CAMERA           := false
+TARGET_SUPPORTS_QUICK_TAP   := true
+TARGET_HAS_UDFPS            := true
+
+ifeq ($(WITH_GMS),true)
+TARGET_DEFAULT_PIXEL_LAUNCHER=true
+TARGET_USE_GOOGLE_TELEPHONY=true
+else ifeq ($(WITH_GMS),false)
+# Gallery
+PRODUCT_PACKAGES += \
+    Glimpse \
+    Launcher3
+else
+$(error WITH_GMS is unset)
+endif
+
 # Inherit proprietary blobs
 $(call inherit-product, vendor/samsung/sm7125-common/sm7125-common-vendor.mk)

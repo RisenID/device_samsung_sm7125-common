@@ -1,4 +1,4 @@
-# All blobs are from A525FXXS9FXJ1 (U), unless pinned
+# All blobs are from A525FXXUAFXL2 (U), unless pinned
 
 # ACDB
 vendor/lib/libacdb-fts.so
@@ -378,8 +378,8 @@ vendor/lib/liboemcrypto.so
 vendor/lib64/liboemcrypto.so
 vendor/lib/libtrustedapploader.so
 vendor/lib64/libtrustedapploader.so
-vendor/lib/libwvhidl.so|b2000f7c3059eb3006f86ea94d11ed0011506995
-vendor/lib/mediadrm/libwvdrmengine.so|c298713070699c0e70ff067ad11d79d58906ec93
+vendor/lib/libwvhidl.so
+vendor/lib/mediadrm/libwvdrmengine.so
 
 # Feature
 vendor/lib/libsemnativecarrierfeature.so
@@ -402,7 +402,7 @@ system_ext/lib/vendor.qti.hardware.fm@1.0.so
 system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Gatekeeper
-vendor/lib64/hw/gatekeeper.mdfpp.so|31bf2921b6723975a4c89dd483953e34b5a6ae5d
+vendor/lib64/hw/gatekeeper.mdfpp.so
 
 # GPS
 -vendor/app/CACertService/CACertService.apk
@@ -607,7 +607,7 @@ vendor/firmware/ipa_fws.mdt
 
 # Keymaster
 vendor/lib64/libkeymaster_helper.so
--vendor/lib64/libskeymaster4device.so|72bd574947d0312dcabb1a1b7fd10e6924ffd668
+-vendor/lib64/libskeymaster4device.so
 
 # Machine learning
 vendor/lib64/libreffeature.so
@@ -765,7 +765,7 @@ vendor/lib64/libconfigdb.so
 vendor/lib/libqcmaputils.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libengmode_client.so
-vendor/lib64/libsec-ril.so|89059627966559344cc526e7a533d4284afca1d4
+vendor/lib64/libsec-ril.so
 vendor/lib64/libsecril-client.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libril_sem.so
 vendor/lib64/libSemTelephonyProps.so

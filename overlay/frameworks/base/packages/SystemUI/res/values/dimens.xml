@@ -15,17 +15,8 @@
 
     <!-- Bottom margin size when fingerprint in display is active -->
     <dimen name="keyguard_indication_margin_bottom">20dp</dimen>
-	
-	    <!-- Default radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">13dp</dimen>
-
-    <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">13dp</dimen>
-
-    <!-- the padding on the end of the statusbar -->
-    <dimen name="status_bar_padding_end">0dp</dimen>
 
     <!-- Margin on the left side of the carrier text on Keyguard -->
-    <dimen name="keyguard_carrier_text_margin">30px</dimen>
+    <dimen name="keyguard_carrier_text_margin">25px</dimen>
 
 </resources>

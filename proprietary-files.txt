@@ -23,9 +23,6 @@ vendor/lib64/libadsprpc.so
 
 # ADSP modules
 vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so
-vendor/lib64/libsnpe_dsp_domains_v2.so
-vendor/lib64/libSNPE.so
-vendor/lib64/libsnpe_wrapper.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
@@ -268,8 +265,6 @@ vendor/lib64/camera/com.samsung.sensormodule.1_1_lsi_s5kgd2_otp.bin:vendor/lib64
 vendor/lib64/camera/com.samsung.sensormodule.0_1_lsi_s5kgw1p.bin:vendor/lib64/com.samsung.sensormodule.0_1_lsi_s5kgw1p.bin
 vendor/lib64/camera/com.samsung.sensor.imx682.so
 vendor/lib64/camera/com.samsung.sensormodule.2_1_hynix_hi1336.bin:vendor/lib64/com.samsung.sensormodule.2_1_hynix_hi1336.bin
-vendor/lib64/camera/components/com.wrapper.stats.aec.so
-vendor/lib64/camera/components/com.samsung.node.smooth_transition.so
 vendor/lib64/camera/components/com.qti.eisv3.so
 vendor/lib64/camera/components/com.samsung.node.capture_fusion.so
 vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so
@@ -305,7 +300,6 @@ vendor/lib64/camera/components/com.qti.stats.afd.so
 vendor/lib64/camera/com.samsung.sensormodule.2_0_lsi_s5k3l6.bin:vendor/lib64/com.samsung.sensormodule.2_0_lsi_s5k3l6.bin
 vendor/lib64/camera/com.samsung.sensor.s5k3l6.so
 vendor/lib64/camera/com.samsung.tuned.lsi_gc5035_macro.bin:vendor/lib64/com.samsung.tuned.lsi_gc5035_macro.bin
-vendor/lib64/camera/com.qti.eeprom.sec2qcconversion.so
 vendor/lib64/camera/com.samsung.sensor.hi1336.so
 vendor/lib64/libcamxfdalgov7.so
 vendor/lib64/libsensorlistener.so

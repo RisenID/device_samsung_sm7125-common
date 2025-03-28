@@ -109,6 +109,22 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
     libui_shim.vendor
 
+# Camera firmware symlinks
+PRODUCT_PACKAGES += \
+    com.samsung.sensormodule.0_1_lsi_s5kgw1p.bin_symlink \
+    com.samsung.sensormodule.1_0_sony_imx616.bin_symlink \
+    com.samsung.sensormodule.1_1_lsi_s5kgd2.bin_symlink \
+    com.samsung.sensormodule.1_1_lsi_s5kgd2_otp.bin_symlink \
+    com.samsung.sensormodule.2_0_lsi_s5k3l6.bin_symlink \
+    com.samsung.sensormodule.2_1_hynix_hi1336.bin_symlink \
+    com.samsung.sensormodule.8_0_sony_imx616_full.bin_symlink \
+    com.samsung.sensormodule.8_1_lsi_s5kgd2_full.bin_symlink \
+    com.samsung.sensormodule.8_1_lsi_s5kgd2_full_otp.bin_symlink \
+    com.samsung.tuned.lsi_gc5035_macro.bin_symlink \
+    com.samsung.tuned.lsi_s5kgd2.bin_symlink \
+    com.samsung.tuned.sony_imx616.bin_symlink \
+    com.samsung.tuned.sony_imx616.bin_symlink
+
 # CAS
 PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service
